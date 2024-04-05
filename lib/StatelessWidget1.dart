@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget { // 상태 변경이 없는 위젯. 한번 
               Text("$counter"),
               ElevatedButton( // 버튼 위젯
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue
+                    backgroundColor: Colors.green
                 ),
                 onPressed: () { // 클릭할 때마다 counter변수가 변하도록 한다.
                   increaseCounter();
