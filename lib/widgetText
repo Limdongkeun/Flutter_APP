@@ -21,3 +21,13 @@
  - 스캐폴드 (Scaffold) - 기본적인 머터리얼 디자인 구조를 잡아준다(뼈대)
 
 상태 변경 없는 위젯(statelessWidget) VS 상태 변경 있는 위젯(statefulWidget)
+
+
+--------------------------------------
+Bloc 패턴을 앱에다 어떻게 적용할까?
+앱에 블락 패턴을 쓰려면 3가지를 해야합니다.
+
+1. Bloc을 만들고 필요한 로직을 구현한다.
+2. BlocProvider을 만든다. BlocProvider는 로직(Bloc)을 UI에 건내주기만 합니다. Provider(제공자)란 이름에 맞는 역할이지요.
+3. BlocProvider를 통해 건내받은 Bloc을 StreamBuilder와 연결합니다.
+
