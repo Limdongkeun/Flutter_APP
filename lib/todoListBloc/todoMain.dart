@@ -7,7 +7,7 @@ import 'bloc/todo_bloc.dart';
 
 import 'repository/api.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

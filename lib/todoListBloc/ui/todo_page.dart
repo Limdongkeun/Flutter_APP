@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_workspace/todoListBloc/bloc/todo_provider.dart';
 
 class TodoPage extends StatefulWidget {
+  const TodoPage({super.key});
 
   @override
   _TodoPageState createState() => _TodoPageState();
