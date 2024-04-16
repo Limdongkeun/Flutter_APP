@@ -15,4 +15,18 @@ void main() {
     expect(FieldValidator.validateSocialSecurityNumber(socialNumber3), false);
     });
   });
+
+  group('field validator test', () {
+
+    test("validateEmail", (){
+      const String email1 = "goodday@gmail.com";
+
+      expect(FieldValidator.validateEmail(email1), true); // 통과할거로 예상하고 통과
+
+      //실패하는 케이스
+      const  String email2 = "badday#@gmail.com";
+
+      expect(FieldValidator.validateEmail(email2), true , reason: '# is a not valid character'); // 통과할 거로 예상했으나 통과하지 못하기에 test fail
+    });
+  });
 }
