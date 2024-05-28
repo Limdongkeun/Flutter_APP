@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_workspace/StatelessWidget1.dart';
+import 'package:flutter_workspace/common/StatelessWidget1.dart';
 import 'package:flutter_workspace/chartGraph/ui/chart_page.dart';
 
 void main() => runApp( MyApp());

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_workspace/FieldValidator.dart';
+import 'package:flutter_workspace/common/FieldValidator.dart';
 
 void main() {
   group('field validator test', () {
