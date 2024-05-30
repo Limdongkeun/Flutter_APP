@@ -31,3 +31,11 @@ Bloc 패턴을 앱에다 어떻게 적용할까?
 2. BlocProvider을 만든다. BlocProvider는 로직(Bloc)을 UI에 건내주기만 합니다. Provider(제공자)란 이름에 맞는 역할이지요.
 3. BlocProvider를 통해 건내받은 Bloc을 StreamBuilder와 연결합니다.
 
+
+먼저 화면이 실행 되면
+
+
+State(_MyHomePageState) -> 이게 깔린다
+StatefulWidget(MyHomePage) -> 이게 그 위에 깔리고
+StatelessWidget(MyApp) -> 맨 밑에 깔리고
+main -> 실행
