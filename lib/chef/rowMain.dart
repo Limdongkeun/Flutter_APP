@@ -12,13 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'flutter Chef',
       theme: ThemeData(primarySwatch: Colors.lightBlue),
-      home: const MyColum(),
+      home: const MyRow(),
     );
   }
 }
 
-class MyColum extends StatelessWidget {
-  const MyColum({super.key});
+class MyRow extends StatelessWidget {
+  const MyRow({super.key});
 
   @override
   Widget build(BuildContext context) {
